@@ -1,7 +1,7 @@
 import express from "express"
 import accounts from "../data/accounts"
 import { InterfaceAccount } from "../entities/InterfaceAccount"
-import { DateManager } from "../utilities/DateManager"
+import { ManageDate } from "../services/ManageDate"
 
 
 export class EndpointCreateUser {
@@ -13,7 +13,7 @@ export class EndpointCreateUser {
         response.status(422).json({message:`All fields are required`})
       }
 
-      const informedAge = new DateManager().ageFromDateOfBirthday(birthDate)
+      const informedAge = new ManageDate().ageFromDateOfBirthday(birthDate)
       if(informedAge < 18) {
         response.status(406).json({message:`The user must have the minimum legal age (18 years old)`})
       }

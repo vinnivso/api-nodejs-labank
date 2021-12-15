@@ -1,4 +1,4 @@
-export class DateManager {
+export class ManageDate {
   ageFromDateOfBirthday(birthDateInformed: string): number {
     const today = new Date()
     const newBirthDate = birthDateInformed.split("/")
