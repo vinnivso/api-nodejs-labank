@@ -1,5 +1,5 @@
-export class DateManipulator {
-   ageFromDateOfBirthday(birthDateInformed: string): number {
+export class DateManager {
+  ageFromDateOfBirthday(birthDateInformed: string): number {
     const today = new Date()
     const newBirthDate = birthDateInformed.split("/")
 
