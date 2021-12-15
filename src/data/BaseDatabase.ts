@@ -1,3 +1,5 @@
 import { InterfaceAccount } from "../entities/InterfaceAccount";
 
-export let accounts: InterfaceAccount[] = []
+let accounts: InterfaceAccount[] = []
+
+export default accounts
