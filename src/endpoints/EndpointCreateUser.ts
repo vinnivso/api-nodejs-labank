@@ -1,4 +1,5 @@
 import express from "express"
+import * as uuid from "uuid"
 import accounts from "../data/accounts"
 import { InterfaceAccount } from "../entities/InterfaceAccount"
 import { ManageDate } from "../services/ManageDate"
@@ -24,6 +25,7 @@ export class EndpointCreateUser {
       }
 
       const newUser: InterfaceAccount = {
+        id:uuid.v4(),
         name,
         birthDate,
         document,
