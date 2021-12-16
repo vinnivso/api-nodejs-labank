@@ -18,11 +18,11 @@ export class ManageDate {
     return getAge
   }
 
-  ageFromDateInformedByUser(dateInformed: string): boolean {
-    const arrayDate = dateInformed.split("/")
+  ageFromDateInformedByUser(date: string): boolean {
+    const arrayDate = date.split("/")
     const informedDay = Number(arrayDate[0])
-    const informedMonth = Number(arrayDate[0])
-    const informedYear = Number(arrayDate[0])
+    const informedMonth = Number(arrayDate[1])
+    const informedYear = Number(arrayDate[2])
 
     const today = new Date()
     const currentDay = today.getDate()
