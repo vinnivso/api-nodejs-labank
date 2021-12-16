@@ -4,9 +4,11 @@ import { EndpointGetAllUsers } from "./endpoints/EndpointGetAllUsers"
 import { EndpointGetBalance } from "./endpoints/EndpointGetBalance"
 import { EndpointInsertBalance } from "./endpoints/EndpointInsertBalance"
 import { EndpointPayDay } from "./endpoints/EndpointPayday"
+import { EndpointTransfer } from "./endpoints/EndpointTransfer"
 
 //POST
 app.post("/users", new EndpointCreateUser().createUser)
+app.post("/users/transfer", new EndpointTransfer().transfer)
 
 //PUT
 app.put("/users/balance", new EndpointInsertBalance().insertBalance)
