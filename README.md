@@ -1,5 +1,5 @@
-# SistemaBancario-Labenu
-Sistema Bancário Labenu - Typescript Back End
+# challenge-labank
+Sistema Bancário Labank - Typescript Back End
 
 #### Funcionalidades
 
