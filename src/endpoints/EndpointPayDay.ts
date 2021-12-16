@@ -1,7 +1,6 @@
 import express from "express"
 import accounts from "../data/accounts"
 import { ManageDate } from "../services/ManageDate"
-import { EndpointGetBalance } from "./EndpointGetBalance"
 
 export class EndpointPayDay {
   async payDay(request:express.Request, response:express.Response):Promise<any> {
