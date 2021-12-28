@@ -1,5 +1,5 @@
 # api-labank
-Sistema Bancário Labank - Typescript Back End
+Labank Challenge - Typescript Back End
 
 #### Funcionalidades
 
