@@ -1,4 +1,4 @@
-# api-labank
+# api-nodejs-labank
 Labank Challenge - Typescript Back End
 
 #### Funcionalidades
