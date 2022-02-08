@@ -1,22 +1,27 @@
 {
-   "scripts": {
-      "dev": "clear && nodemon ./src/index.ts",
-      "start": "tsc && node ./build/index.js"
-   },
-   "dependencies": {
-      "uuid": "^8.3.2",
-      "cors": "^2.8.5",
-      "dotenv": "^8.2.0",
-      "express": "^4.17.1",
-      "moment": "^2.27.0"
-   },
-   "devDependencies": {
-      "nodemon": "^2.0.15",
-      "@types/uuid": "^8.3.1",
-      "@types/cors": "^2.8.12",
-      "@types/express": "^4.17.7",
-      "@types/node": "^15.12.4",
-      "ts-node-dev": "^1.1.6",
-      "typescript": "^4.3.4"
-   }
+  "name": "api-nodejs-labank",
+  "version": "1.0.0",
+  "repository": "git@github.com:vinnivso/api-nodejs-labank.git",
+  "author": "vinnivso <vinnivsob@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "clear && nodemon ./src/index.ts",
+    "start": "tsc && node ./build/index.js"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "@types/uuid": "^8.3.1",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.7",
+    "@types/node": "^15.12.4",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.4"
+  }
 }
